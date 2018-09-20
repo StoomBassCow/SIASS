@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    NODE JS IS FO PUSSYS
+                    LARAVEL
                 </div>
 
                 <div class="links">
