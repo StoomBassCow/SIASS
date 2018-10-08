@@ -18,6 +18,3 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
-Route::get('/alumnos', function () { return view ('alumnos'); });
-Route::get('/downloads', function () { return view ('downloads'); });
