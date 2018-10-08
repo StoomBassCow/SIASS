@@ -168,9 +168,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-angle-double-down"></i>
               <p>
-                Starter Pages
+              Coordinación de 
+              Servicio Social
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
@@ -267,68 +268,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <div class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-
-            <div class="card card-primary card-outline">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div><!-- /.card -->
-          </div>
-          <!-- /.col-md-6 -->
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-header">
-                <h5 class="m-0">Featured</h5>
-              </div>
-              <div class="card-body">
-                <h6 class="card-title">Special title treatment</h6>
-
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-
-            <div class="card card-primary card-outline">
-              <div class="card-header">
-                <h5 class="m-0">Featured</h5>
-              </div>
-              <div class="card-body">
-                <h6 class="card-title">Special title treatment</h6>
-
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <!-- /.col-md-6 -->
-        </div>
-        <!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
+  @yield('content') 
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -345,12 +285,20 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <!-- To the right -->
+ <p align="Center">
+  <img src="./img/logo-ujed.png"  align="left" >
+    <img src="./img/15.png" align="ceter" width="183" height="60.3" >    
+    <img src="./img/14.png" align="right" width="146.66" height="43.33"  >
     <div class="float-right d-none d-sm-inline">
-      Anything you want
-    </div>
-    <!-- Default to the left -->
-    <strong>Copyright &copy; 2014-2018 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+
+    <p align="center"> © Universidad Juárez del Estado de Durango | Dirección de Extensión de los Servicios Universitarios 
+Carr. a Mazatlán km. 5.5 Y Circuito Universitario. S/N C.P. 34120   Tel y Fax (618) 811 9614 - Tel. Directo (618) 827 1249
+  </p>
+  </div>
+  
+
+    </p>
+ 
   </footer>
 </div>
 <!-- ./wrapper -->
