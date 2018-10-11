@@ -76,8 +76,8 @@
                        @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('login') }}">Acceder</a>
+                        <a href="{{ route('register') }}">Registrar</a>
                     @endauth
                 </div>
             @endif
@@ -89,18 +89,19 @@
                 <nav class="navbar navbar-dark" style="background-color: #b0b3b4;"  >
 
      <ul class="nav navbar-nav">
-    <li class="active"><a href="#" style="color:#FFF" > <strong>Inicio </strong></a></li>
-      <li ><a href="#" style="color:#FFF"> <strong>Pagina 1 </strong></a></li>
-      <li><a href="#" style="color:#FFF"> <strong>Pagina 2 </strong></a></li>
-      <li><a href="#" style="color:#FFF"> <strong>Pagina 3 </strong></a></li>
+    <li class="active"><a href="/" style="color:#FFF" > <strong>Inicio </strong></a></li>
+      <li ><a href="/contacto" style="color:#FFF"> <strong>Contacto </strong></a></li>
+      <li><a href="#" style="color:#FFF"> <strong>Descargas</strong></a></li>
+      
     </ul>
   </div>
 </nav> 
  </div>
-
- <p> <strong>COORDINACIÓN DE SERVICIO SOCIAL</strong>.</p>
+ <div class="row">
+ <div class="col-md-6 col-md-offset-3">
+ <li> <strong>COORDINACIÓN DE SERVICIO SOCIAL</strong>.</li>
  <br>
- <p align="left"> 
+ <p class="text-justify"> 
 El Servicio Social es una vía complementaria de la formación integral de los alumnos, 
 al ponerlos en contacto con el sector social y el mercado laboral, y una importante fuente 
 de retroalimentación curricular para la Universidad Juárez del Estado de Durango (UJED).
@@ -109,7 +110,7 @@ de retroalimentación curricular para la Universidad Juárez del Estado de Duran
     <br>
     <p> <strong>Objetivo General</strong>.</p>
     <br>
- <p align="left"> 
+ <p class="text-justify"> 
  Implementar un Programa Institucional de Servicio Social que propicie normar, planear, coordinar, supervisar, 
  evaluar y dar seguimiento a esta actividad como complemento en la formación integral del estudiante, así mismo 
  que le permita desarrollar la función social que como futuro profesionista debe realizar, en beneficio tanto del 
@@ -119,7 +120,7 @@ de retroalimentación curricular para la Universidad Juárez del Estado de Duran
 <br>
     <p> <strong>Objetivos Especificos</strong>.</p>
     <br>
- <p align="left"> 
+ <p class="text-justify"> 
 Operar el PISS como un factor de vinculación de las funciones sustantivas en la UJED y así formar integralmente a los alumnos, reforzado las actitudes solidarias con la comunidad.
 <br> <br> Reformar y actualizar la normatividad referente al servicio social para que sea acorde al contexto social y privado.
 <br> <br> Establecer acciones institucionales para la incorporación del S.S en la Currícula con la participación de los académicos y estudiantes.
@@ -129,21 +130,27 @@ Operar el PISS como un factor de vinculación de las funciones sustantivas en la
 
 <br>
     <p> <strong>Acciones</strong>.</p>
-   <p align="left"> 
+   <p class="text-justify"> 
  <br> Impartir Diplomado en S.S.
  <br> <br> Realizar un foro para analizar la normatividad que rige la prestación del Servicio Social en la UJED, así como reformar y adecuar los reglamentos internos de las U.A.
  <br> <br> Implementación del seminario.
 
 </p>
 
+<br>
+    <p> <strong>Correo Electronico</strong>.</p>
+   <p class="text-justify" class="text-primary"> 
+ serviciosocial@ujed.mx 
+ 
 
+</p>
 
-  
-                 
+</div>
+</div>                 
 
                 <div class="links" align="center"style="background-color: #b0b3b4;">
                
-                    <a href="https://laravel.com/docs">Contacto</a>
+                    <a href="/contacto">Contacto</a>
                     <a href="https://laracasts.com">Organigrama</a>
                     <a href="https://laravel-news.com">Sobre esta PAGINA</a>
                     <a href="https://nova.laravel.com">Mapa del sitio</a>
