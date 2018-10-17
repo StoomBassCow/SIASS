@@ -6,7 +6,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 -->
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-9">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -170,8 +170,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-angle-double-down"></i>
               <p>
-              Coordinación de 
-              Servicio Social
+              Unidades Receptoras
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
@@ -196,7 +195,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-file-download"></i>
               <p>
-                Descargas
+                Administracion de Alumnos
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
@@ -226,7 +225,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-file-download"></i>
               <p>
-                Alumnos
+                Registro de Alumnos
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
@@ -256,7 +255,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-th"></i>
               <p>
-                Simple Link
+                Descargas
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
