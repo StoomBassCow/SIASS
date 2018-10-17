@@ -102,17 +102,19 @@
      <ul class="nav navbar-nav">
     <li class="active"><a href="/" style="color:#FFF" > <strong>Inicio </strong></a></li>
       <li ><a href="/contacto" style="color:#FFF"> <strong>Contacto </strong></a></li>
-      <li><a href="#" style="color:#FFF"> <strong>Descargas</strong></a></li>
+      <li><a href="/descargas" style="color:#FFF"> <strong>Descargas</strong></a></li>
       
     </ul>
   </div>
 </nav> 
  </div>
+
  
  <div class="row">
  <div class="col-md-6 col-md-offset-3" >
- <p><strong >Contacto</strong>.</p>
- <br>
+
+    
+    <legend class="text-center header"> <Strong> CONTACTO</Strong></legend>
  <p class="text-justify"> 
  Si tienes alguna duda, sugerencia, comentario, queja o inconformidad sobre la dirección en general o alguna coordinación,
  puedes mandarnos tu inquietud a través de este formulario.
@@ -129,7 +131,7 @@
  <form class="form-horizontal" method="post">
 
  <fieldset>
-    <legend class="text-center header"> <Strong> Contacto</Strong></legend>
+    <legend class="text-center header"></legend>
     
 <div class="form-group">
  <span class="col-md-1 col-md-offset-2 text-center"> <i class="far fa-clipboard bigicon"></i></span>
@@ -198,7 +200,7 @@
 <div class="form-group">
  <span class="col-md-1 col-md-offset-2 text-center"><i class="far fa-comment bigicon"></i></span>
  <div class="col-md-8">
-  <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+  <textarea class="form-control" id="message" name="message" placeholder="Escribe aquí tus comentarios." rows="7"></textarea>
  </div>
 </div>
 

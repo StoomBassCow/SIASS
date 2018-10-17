@@ -95,63 +95,52 @@
       
     </ul>
   </div>
+  </div>
 </nav> 
  </div>
-  
- 
  <div class="row">
- <div class="col-md-6 col-md-offset-3">
- <legend class="text-center header"> <Strong> COORDINACIÓN DE SERVICIO SOCIAL </Strong></legend>
- <br>
- <p class="text-justify"> 
-El Servicio Social es una vía complementaria de la formación integral de los alumnos, 
-al ponerlos en contacto con el sector social y el mercado laboral, y una importante fuente 
-de retroalimentación curricular para la Universidad Juárez del Estado de Durango (UJED).
-</p>
-
-
-    <br>
-    <p> <strong>Objetivo General</strong>.</p>
-    <br>
- <p class="text-justify"> 
- Implementar un Programa Institucional de Servicio Social que propicie normar, planear, coordinar, supervisar, 
- evaluar y dar seguimiento a esta actividad como complemento en la formación integral del estudiante, así mismo 
- que le permita desarrollar la función social que como futuro profesionista debe realizar, en beneficio tanto del 
- desarrollo individual como de su comunidad.
-</p>
-
-<br>
-    <p> <strong>Objetivos Especificos</strong>.</p>
-    <br>
- <p class="text-justify"> 
-Operar el PISS como un factor de vinculación de las funciones sustantivas en la UJED y así formar integralmente a los alumnos, reforzado las actitudes solidarias con la comunidad.
-<br> <br> Reformar y actualizar la normatividad referente al servicio social para que sea acorde al contexto social y privado.
-<br> <br> Establecer acciones institucionales para la incorporación del S.S en la Currícula con la participación de los académicos y estudiantes.
-<br> <br> Formación de Tutores de S.S. para contar con recursos humanos en la revisión curricular.
-<br> <br> Establecer mecanismos para la programación, evaluación, seguimiento e impacto del PISS y proyectos de S.S.
-</p>
-
-<br>
-    <p> <strong>Acciones</strong>.</p>
-   <p class="text-justify"> 
- <br> Impartir Diplomado en S.S.
- <br> <br> Realizar un foro para analizar la normatividad que rige la prestación del Servicio Social en la UJED, así como reformar y adecuar los reglamentos internos de las U.A.
- <br> <br> Implementación del seminario.
-
-</p>
-
-<br>
-    <p> <strong>Correo Electronico</strong>.</p>
-   <p class="text-justify" class="text-primary"> 
- serviciosocial@ujed.mx 
+ <div class="col-md-6 col-md-offset-3" >
+<fieldset>
+    <legend class="text-center header"> <Strong> DESCARGAS</Strong></legend>
+  <div>
+  <p class="text-left">Cedula de Asiganación Borrador Del Servicio Social</p>
+  <a href="\descarga\RPGSS02,B.docx" download="CEDULA DE ASIGNACIÓN BORRADOR DE SERVICIO SOCIAL.docx"> <ins> Descargar</ins></a></div>
+  <br>
+  <legend>
+   </legend>
+   <br>
+   <p class="text-left">Informes De Servicio Social De Pasante</p>
+  <div><a href="\descarga\RPGSS02,D.docx" download="INFORMES DE SERVICIO SOCIAL DE PASANTE.docx"><ins> Descargar</ins></a></div>
+  <br>
+  <legend>
+   </legend>
+   <br>
+   <p class="text-left">Registro De Conteo De Horas De Servicio Social</p>
+  <div ><a href="\descarga\RPGSS02,E.docx" download="REGISTRO DE CONTEO DE HORAS DE SERVICIO SOCIAL.docx"><ins> Descargar</ins></a></div>
+  <br>
+  <legend>
+   </legend>
+   <br>
+  <p class="text-left">Enuesta De Satisfaccion Y Desempeño Del Servicio Social</p> 
+  <div><a href="\descarga\RPGSS02,H.docx" download="ENCUESTA DE SATISFACCIÓN Y DESEMPEÑO DEL SERVICIO SOCIAL.docx"><ins> Descargar</ins></a></div>
+  <br>
+  <legend>
+   </legend>
+   <br>
+   <p class="text-left">Informe De Actividades Del CSSUA</p>
+  <div><a href="\descarga\RPGSS01,K.doc" download="INFORME DE ACTIVIDADES DEL CSSUA.docx"><ins> Descargar</ins></a></div>
+  <br>
+  <legend>
+   </legend>
  
+             
 
-</p>
-</fieldset>
+<br>
+<br>
+<br><br>
 
 </div>
-</div>                 
-
+</div>
                 <div class="links" align="center"style="background-color: #b0b3b4;">
                
                     <a href="/contacto">Contacto</a>
@@ -174,9 +163,10 @@ Carr. a Mazatlán km. 5.5 Y Circuito Universitario. S/N C.P. 34120   Tel y Fax (
   </p>
   </div>
   
+  
 
     </p>
  
   </footer>
-    </body>
-</html>
+   
+</html> </body>
