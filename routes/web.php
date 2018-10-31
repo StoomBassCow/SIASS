@@ -20,5 +20,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/contacto', function () { return view('contacto'); });
 Route::get('/descargas', function () { return view('descargas'); });
-
+Route::get('/registro', function () { return view('registro'); });
+Route::get('/administracion', function () { return view('administracion'); });
 

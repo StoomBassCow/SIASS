@@ -6,7 +6,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 -->
 <html lang="en">
 <head>
-  <meta charset="utf-9">
+  <meta charset="utf-8S">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -154,10 +154,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="./img/profile.png" class="img-circle elevation-2" alt="User Image">
+          <img src="./img/profile2.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Diana Rincón Quiroz</a>
         </div>
       </div>
 
@@ -166,44 +166,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-angle-double-down"></i>
+          <li class="nav-item has-treeview menu-closes">
+            <a href="/home" class="nav-link active">
+              <i class="nav-icon fas fa-building"></i>
+             
               <p>
               Unidades Receptoras
-                <i class="right fa fa-angle-left"></i>
-              </p>
+            </p>
             </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link active">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Active Page</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inactive Page</p>
-                </a>
-              </li>
-            </ul>
+           
           </li>
 
           <!-- Descargas -->
                    <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-file-download"></i>
+              <i class="nav-icon fas fa-address-book"></i>
               <p>
-                Administracion de Alumnos
+                Administracion Alumnos
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="charts/chartjs.html" class="nav-link">
-                  <i class="fas fa-users nav-icon"></i>
-                  <p>ChartJS</p>
+                <a href="/administracion" class="nav-link">
+                  <i class="fas fa-file"></i>
+                  <p>Carta de Asignación</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -223,7 +210,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!--Alumnos-->
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-file-download"></i>
+              <i class="nav-icon fas fa-user-plus"></i>
+           
               <p>
                 Registro de Alumnos
                 <i class="right fa fa-angle-left"></i>
@@ -231,30 +219,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="charts/chartjs.html" class="nav-link">
+                <a href="/registro" class="nav-link">
                   <i class="fas fa-users nav-icon"></i>
-                  <p>ChartJS</p>
+                  <p>Registrar Alumno</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="charts/flot.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Flot</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="charts/inline.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inline</p>
-                </a>
-              </li>
+              
             </ul>
           </li>
           <!-- Tercer  parametro -->
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-th"></i>
-              <p>
+              <i class="nav-icon fas fa-download"></i>
+               <p>
                 Descargas
                 <span class="right badge badge-danger">New</span>
               </p>

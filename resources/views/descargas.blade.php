@@ -10,7 +10,7 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
                   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-        <title>Laravel</title>
+        <title>SIASS</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -86,7 +86,7 @@
                 <div class="title m-b-md">
                 <img src="./img/u5.png"  align="center" > 
               
-                <nav class="navbar navbar-dark" style="background-color: #b0b3b4;"  >
+                <nav class="navbar navbar-dark" style="background-color: #000000;"  >
 
      <ul class="nav navbar-nav">
     <li class="active"><a href="/" style="color:#FFF" > <strong>Inicio </strong></a></li>
@@ -141,7 +141,7 @@
 
 </div>
 </div>
-                <div class="links" align="center"style="background-color: #b0b3b4;">
+                <div class="links" align="center"style="background-color: #e5e5e5;">
                
                     <a href="/contacto">Contacto</a>
                     <a href="https://laracasts.com">Organigrama</a>
