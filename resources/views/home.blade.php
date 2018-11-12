@@ -2,12 +2,14 @@
 <H1></H1>
 @section('content')
 <div></div>
-<div class="row" aling="center">
- <div class="col-md-7 col-md-offset-4" >
-<h1>      </h1>
-<h1>      </h1>
-
-<form class="form-horizontal" method="post">
+<br>
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<div class="col-md-12 col-md-offset-6" >
+ <div class="well well-sm">
+<form class="form-horizontal" method="post" aling="center">
+  <div class="form-row">
  <div class="card" aling="center">
   <div class="card-header" aling="center">
   Directorio de Unidades Receptoras
@@ -23,8 +25,14 @@
   </div>
 </div>
 
+  </div>
+
 </form>
 </div>
 </div>
+</div>
+</div>
+</div>
+
 @endsection
 

@@ -136,7 +136,7 @@
 <div class="form-group">
  <span class="col-md-1 col-md-offset-2 text-center"> <i class="far fa-clipboard bigicon"></i></span>
  <div class="col-md-8">
- <input id="matricula" name="matricula" type="text" placeholder="Matricula" class="form-control">
+ <input id="number" name="matricula" type="text" placeholder="Matricula" class="form-control">
  </div>
 </div>
 
