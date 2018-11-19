@@ -68,7 +68,7 @@
    
   </tbody>
 </table>
-
+<td><a href="/descargas" class="btn btn-dark btn-m">Ir a Descargas</a></td>
 
 
 
