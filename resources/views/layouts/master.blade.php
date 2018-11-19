@@ -25,15 +25,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
       </li>
+      
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/" class="nav-link">Home</a>
+        <a href="/" class="nav-link">Inicio</a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+      <li class="nav-item d-none d-sm-inline-block" >
+        <a href="/contacto" class="nav-link">Contacto</a>
       </li>
     </ul>
 
-    <!-- SEARCH FORM -->
+    <!-- SEARCH FORM 
     <form class="form-inline ml-3">
       <div class="input-group input-group-sm">
         <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
@@ -44,7 +45,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div>
       </div>
     </form>
-
+-->
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
       <!-- Messages Dropdown Menu -->
@@ -143,10 +144,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="/home" class="brand-link">
       <img src="./img/logo.png" alt="SIASS Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">SIASS</span>
+     <strong> <span class="brand-text font-weight-light">SIASS</span></strong>
     </a>
 
     <!-- Sidebar -->
@@ -158,6 +159,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div>
         <div class="info">
           <a href="#" class="d-block">Diana Rincón Quiroz</a>
+          <a href="#" class="d-block">Administrador General</a>
+       
         </div>
       </div>
 
@@ -168,43 +171,71 @@ scratch. This page gets rid of all links and provides the needed markup only.
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-closes">
             <a href="/home" class="nav-link active">
-              <i class="nav-icon fas fa-building"></i>
+              <i class="nav-icon fas fa-home"></i>
              
               <p>
-              Unidades Receptoras
+              Inicio SIASS
             </p>
             </a>
            
           </li>
-
-          <!-- Descargas -->
-                   <li class="nav-item has-treeview">
+  <!-- Unidades-->
+  <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-address-book"></i>
+              <i class="nav-icon fas fa-building"></i>
               <p>
-                Administracion Alumnos
+              Unidades Receptoras
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
+                <a href="/unidades" class="nav-link">
+                  <i class="fas fa-file-alt"></i>
+                  <p>Directorio de Unidades</p>
+                </a>
+              </li> 
+              <li class="nav-item">
+                <a href="/correo" class="nav-link">
+                  <i class="fas fa-tasks"></i>
+                  <p>Encuesta de Satisfacción</p>
+                </a>
+              </li>            
+            </ul>
+            
+          </li>
+          <!-- Descargas -->
+                   <li class="nav-item has-treeview">
+            <a href="/descargas" class="nav-link">
+              <i class="nav-icon fas fa-address-book"></i>
+              <p>
+                Administracion Alumnos
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+
+               <li class="nav-item">
+                <a href="/veralumno" class="nav-link">
+                <i class="fas fa-address-book"></i>
+                  <p>Ver Alumnos</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
                 <a href="/administracion" class="nav-link">
-                  <i class="fas fa-file"></i>
+                  <i class="fas fa-file-alt"></i>
                   <p>Carta de Asignación</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="charts/flot.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Flot</p>
+                <a href="/administracion2" class="nav-link">
+                  <i class="fas fa-file-alt"></i>
+                  <p>Constancia de Termino</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="charts/inline.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inline</p>
-                </a>
-              </li>
+
+             
             </ul>
           </li>
           <!--Alumnos-->
@@ -229,15 +260,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </li>
           <!-- Tercer  parametro -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/admindescarga" class="nav-link">
               <i class="nav-icon fas fa-download"></i>
                <p>
                 Descargas
-                <span class="right badge badge-danger">New</span>
               </p>
             </a>
           </li>
         </ul>
+        
       </nav>
       <!-- /.sidebar-menu -->
     </div>

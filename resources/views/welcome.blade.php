@@ -81,13 +81,13 @@
                 <nav class="navbar navbar-dark" style="background-color: #000000;"  >
 
      <ul class="nav navbar-nav">
-    <li class="active"><a href="/" style="color:#FFF" > <strong>Inicio </strong></a></li>
+    <li class="active"><a href="/" style="color:#FFF" > <strong>Inicio</strong></a></li>
       <li ><a href="/contacto" style="color:#FFF"> <strong>Contacto </strong></a></li>
       <li><a href="/descargas" style="color:#FFF"> <strong>Descargas</strong></a></li>
       @if (Route::has('login'))
                 <div class="top-right links"  >
                        @auth
-                        <a style="color:#FFF" href="{{ url('/home') }}">Home</a>
+                        <a style="color:#FFF" href="{{ url('/home') }}">Acceder SIASS</a>
                     @else
                         <a style="color:#FFF" href="{{ route('login') }}">Acceder</a>
                         <a  style="color:#FFF" href="{{ route('register') }}">Registrar</a>

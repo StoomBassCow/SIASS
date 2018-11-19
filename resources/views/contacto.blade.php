@@ -81,21 +81,11 @@
         </style>
     </head>
     <body>
-       
-          @if (Route::has('login'))
-                <div class="top-right links"  >
-                       @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Acceder</a>
-                        <a href="{{ route('register') }}">Registrar</a>
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content" style="background-color: #dddddd;"> 
+    
+     
+    <div class="content" style="background-color: #dddddd;"> 
                 <div class="title m-b-md">
-                <img src="./img/u5.png"  align="center" > 
+                <img src="./img/u5.png"  aligns="center" > 
               
                 <nav class="navbar navbar-dark" style="background-color: #000000;"  >
 
@@ -103,12 +93,22 @@
     <li class="active"><a href="/" style="color:#FFF" > <strong>Inicio </strong></a></li>
       <li ><a href="/contacto" style="color:#FFF"> <strong>Contacto </strong></a></li>
       <li><a href="/descargas" style="color:#FFF"> <strong>Descargas</strong></a></li>
+      @if (Route::has('login'))
+                <div class="top-right links"  >
+                       @auth
+                        <a style="color:#FFF" href="{{ url('/home') }}">Acceder SIASS</a>
+                    @else
+                        <a style="color:#FFF" href="{{ route('login') }}">Acceder</a>
+                        <a  style="color:#FFF" href="{{ route('register') }}">Registrar</a>
+                    @endauth
+                </div>
+            @endif
       
     </ul>
   </div>
 </nav> 
  </div>
-
+  
  
  <div class="row">
  <div class="col-md-6 col-md-offset-3" >

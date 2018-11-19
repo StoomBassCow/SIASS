@@ -3,14 +3,13 @@
 @section('content')
 <div></div>
 <br>
-
 <div class="container">
 <div class="row">
 <div class="col-md-12">
 <div class="col-md-15 col-md-offset-6" >
  <div class="well well-sm">
  <strong><div class="text-center text-header" alings="text-center">
- CARTA DE ASIGNACIÓN DE SERVICIO SOCIAL
+ CONSTANCIA DE TERMINO DEL SERVICIO SOCIAL
   </div>
   </strong>
   <br>
@@ -28,8 +27,8 @@
   <tbody>
     <tr>
   <th scope="row">1</th>
- <td>Carta de Asignación de Servicio Social</td>
-  <td><a class="text-right btn btn-dark btn-m"  href="\docs\RPGSS02,C.docx" download=" CARTA DE ASIGNACIÓN DE SERVICIO SOCIAL.docx"> Descargar</a></td>
+ <td>Constancia de Termino del Servicio Social</td>
+  <td><a class="text-right btn btn-dark btn-m" href="\docs\RPGSS02,G.docx"  download="  CONSTANCIA DE TERMINO DEL SERVICIO SOCIAL.docx"> Descargar</a></td>
   <td><input  type="file" id="ejemplo_archivo_1"></td>
   <td><a href="#" class="btn btn-dark btn-m">Actualizar</a></td>
     </tr>

@@ -10,7 +10,7 @@
 <div class="col-md-15 col-md-offset-6" >
  <div class="well well-sm">
  <strong><div class="text-center text-header" alings="text-center">
- CARTA DE ASIGNACIÓN DE SERVICIO SOCIAL
+  DIRECTORIO DE UNIDADES RECEPTORAS
   </div>
   </strong>
   <br>
@@ -28,8 +28,8 @@
   <tbody>
     <tr>
   <th scope="row">1</th>
- <td>Carta de Asignación de Servicio Social</td>
-  <td><a class="text-right btn btn-dark btn-m"  href="\docs\RPGSS02,C.docx" download=" CARTA DE ASIGNACIÓN DE SERVICIO SOCIAL.docx"> Descargar</a></td>
+ <td>Directorio de Unidades Receptoras</td>
+  <td><a class="text-right btn btn-dark btn-m"  href="\docs\RPGSS02,A.docx" download="Directorio de Unidades Receptoras.docx"> Descargar</a></td>
   <td><input  type="file" id="ejemplo_archivo_1"></td>
   <td><a href="#" class="btn btn-dark btn-m">Actualizar</a></td>
     </tr>

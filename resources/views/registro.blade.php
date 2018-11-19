@@ -309,13 +309,42 @@
     </div>
     </div>
 
+
 <div class="form-group col-md-12">
     <div class="radio">
-  <label for="tiposs">Se proporcionará estímulo económico:</label>  
+  <label for="economico">Se proporcionará estímulo económico:</label>  
   <br>
-  <label class="mr-sm-2"><input class="mr-sm-2" type="radio" name="tiposs" checked>SI</label>
+  <label class="mr-sm-2"><input class="mr-sm-2" type="radio" name="economico" checked>SI</label>
 
-  <label class="mr-sm-2"><input class="mr-sm-2" type="radio" name="tiposs">NO</label>
+  <label class="mr-sm-2"><input class="mr-sm-2" type="radio" name="economico">NO</label>
+</div>
+</div>
+
+<div class="form-group col-md-12">
+   <div class="form-inline">
+      
+   <label class="mr-sm-2" for="fecha">Durango, Dgo. a:</label>
+    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="fecha">
+    <label class="mr-sm-2" for="fechadia">de</label>
+    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="fechadia">
+    <label class="mr-sm-2" for="fechaaño">del</label>
+    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="fechaaño">
+    
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<div class="form-group col-md-12 text-right">
+<div class= "btn-group btn-group-xs">
+ <button type="button" class="btn btn-dark btn-m">Dar de Alta</button>
 </div>
 </div>
 
